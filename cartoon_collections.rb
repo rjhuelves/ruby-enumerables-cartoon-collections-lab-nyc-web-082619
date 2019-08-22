@@ -23,7 +23,7 @@ end
 #planeteer_calls = %w[earth wind fire water heart]
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any ? { |call| call.length > 4 }
+  planeteer_calls.any? { |call| call.length > 4 }
 end
 
 potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
