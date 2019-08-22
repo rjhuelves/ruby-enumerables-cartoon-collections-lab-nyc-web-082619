@@ -24,6 +24,7 @@ def long_planeteer_calls
   planeteer_calls.any? { |call| call.length > 4 }
 end
 
+potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
 def find_the_cheese# code an argument here
   # the array below is here to help
